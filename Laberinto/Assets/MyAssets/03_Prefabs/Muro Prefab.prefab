@@ -191,6 +191,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4717880914909213906}
+  - component: {fileID: 6436107510406581716}
+  - component: {fileID: 2517092139104651146}
   m_Layer: 0
   m_Name: Muro Prefab
   m_TagString: Untagged
@@ -215,3 +217,45 @@ Transform:
   - {fileID: 1846357862302925782}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6436107510406581716
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6483092063375071857}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.40908313, y: 1.6568471, z: 0.44430345}
+  m_Center: {x: 0.005870104, y: 0.83715934, z: 0.007826716}
+--- !u!65 &2517092139104651146
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6483092063375071857}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.81765, y: 1.6574439, z: 0.26113996}
+  m_Center: {x: -1.6054024, y: 0.833545, z: 0.0015742928}
