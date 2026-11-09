@@ -4,7 +4,7 @@ public class BolaController : MonoBehaviour
 {
 
     [SerializeField] float fuerzaEmpuje = 10f;
-    [SerializeField] float fuerzaTorsion = 5f;
+    [SerializeField] float fuerzaTorsion = 3f;
 
     [SerializeField] InputActionAsset inputActions;
 
@@ -46,7 +46,7 @@ public class BolaController : MonoBehaviour
         Vector3 torsion = new Vector3(
             0f,
             0f,
-            movimiento.x * fuerzaTorsion
+            -movimiento.x * fuerzaTorsion
         );
 
         rb.AddTorque(torsion, ForceMode.Force);
