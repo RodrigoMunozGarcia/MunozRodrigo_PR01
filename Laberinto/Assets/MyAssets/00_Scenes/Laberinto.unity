@@ -605,7 +605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 328a4d959fa039d488c26eaab314d0b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  tiempoInicial: 60
+  tiempoInicial: 31
   textoTemporizador: {fileID: 2081424968}
   panelDerrota: {fileID: 159177190}
   controlBola: {fileID: 659617118}
