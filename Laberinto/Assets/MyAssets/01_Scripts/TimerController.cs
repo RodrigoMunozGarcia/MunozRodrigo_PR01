@@ -1,5 +1,7 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 
 public class TimerController : MonoBehaviour
@@ -61,7 +63,17 @@ public class TimerController : MonoBehaviour
         rbBola.angularVelocity = Vector3.zero;
 
         panelDerrota.SetActive(true);
+
+        StartCoroutine(ReiniciarPartida());
     }
 
+    IEnumerator ReiniciarPartida()
+    {
+        // Esperar 3 segundos
+        yield return new WaitForSeconds(3f);
+
+        // Reiniciar la escena actual
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
 
